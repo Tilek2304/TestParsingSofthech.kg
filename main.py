@@ -3,9 +3,7 @@ import csv
 import json
 from bs4 import BeautifulSoup
 from bs4 import Tag, ResultSet
-
-
-URL = 'https://softech.kg/noutbuki/xiaomi-noutbuki/'
+from settings import URL
 
 headers = {
     'User-Agent': 'xiaomi_probook_15.6',
